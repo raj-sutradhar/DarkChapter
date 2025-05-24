@@ -25,9 +25,9 @@ DarkChapter is a moody, elegant e-commerce platform for book enthusiasts who pre
 
 ## 🔧 Clone the Repository
 
-bash
+```bash
 git clone https://github.com/raj-sutradhar/DarkChapter.git
-
+```
 
 ---
 
@@ -69,44 +69,44 @@ git clone https://github.com/raj-sutradhar/DarkChapter.git
 
 ### 1. Clone the Repository
 
-bash
-git clone https://github.com/raj-sutradhar/DarkChapter
+```bash
+git clone https://github.com/raj-sutradhar/DarkChapter.git
 cd DarkChapter
-
+```
 
 ### 2. Install Dependencies
 
-bash
+```bash
 # Client
-cd frontend
+cd client
 npm install
 
 # Server
-cd ../backend
+cd ../server
 npm install
-
+```
 
 ### 3. Environment Setup
 
-bash
+```bash
 # Create .env file inside server directory
 touch .env
+```
 
+**Example `.env` content:**
 
-**Example .env content:**
-
-env
+```env
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
-
+```
 
 ### 4. Start Development Servers
 
-bash
+```bash
 # From project root
 npm run dev
-
+```
 
 ---
 
@@ -114,10 +114,10 @@ npm run dev
 
 | Endpoint           | Method | Description                  |
 |--------------------|--------|------------------------------|
-| /api/v1/books    | GET    | Get all books                |
-| /api/v1/orders   | POST   | Create new order             |
-| /api/v1/users    | PUT    | Update user details          |
-| /api/v1/admin    | GET    | Get admin dashboard data     |
+| `/api/v1/books`    | GET    | Get all books                |
+| `/api/v1/orders`   | POST   | Create new order             |
+| `/api/v1/users`    | PUT    | Update user details          |
+| `/api/v1/admin`    | GET    | Get admin dashboard data     |
 
 ---
 
@@ -127,27 +127,24 @@ We welcome contributions from fellow dark scholars!
 
 1. Fork the Project 📌  
 2. Create your Feature Branch  
-   
-bash
+   ```bash
    git checkout -b feature/AmazingFeature
-
+   ```
 3. Commit your Changes  
-   
-bash
+   ```bash
    git commit -m "Add some AmazingFeature"
-
+   ```
 4. Push to the Branch  
-   
-bash
+   ```bash
    git push origin feature/AmazingFeature
-
+   ```
 5. Open a Pull Request 🎯  
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -159,8 +156,6 @@ Distributed under the MIT License. See LICENSE for more information.
 - [React Hot Toast](https://react-hot-toast.com/) – For notifications  
 
 ---
-
-## 🔗 Connect with the Author
 
 <p align="left">
   <a href="https://github.com/raj-sutradhar" target="_blank">
