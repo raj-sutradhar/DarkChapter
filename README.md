@@ -26,7 +26,7 @@ DarkChapter is a moody, elegant e-commerce platform for book enthusiasts who pre
 ## 🔧 Clone the Repository
 
 ```bash
-git clone https://github.com/raj-sutradhar/DarkChapter.git
+git clone https://github.com/raj-sutradhar/DarkChapter
 ```
 
 ---
