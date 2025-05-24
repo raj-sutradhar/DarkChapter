@@ -1,4 +1,4 @@
-# DarkChapter 📖✨
+![image](https://github.com/user-attachments/assets/57ba11ee-ab20-4ddc-af98-278ca8527dda)# DarkChapter 📖✨
 
 _A Mysterious Bookstore Experience in the Shadows_
 
@@ -159,6 +159,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🔗 Connect with the Author
 
-- [GitHub](https://github.com/raj-sutradhar)
-- [LinkedIn]([https://www.linkedin.com/in/raj-sutradhar/](https://www.linkedin.com/in/raj-sutradhar-ba9527286/))
-- 📧 Email: [sutradharraj704@gmail.com](mailto:sutradharraj704@gmail.com)
+<p align="left">
+  <a href="https://github.com/raj-sutradhar" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-raj--sutradhar-%2312100E?logo=github&style=for-the-badge&labelColor=gray&color=green" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/raj-sutradhar-ba9527286/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-raj%20sutradhar-%230077B5?logo=linkedin&style=for-the-badge&color=green" />
+  </a>
+  
+  <a href="mailto:sutradharraj704@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sutradharraj704%40gmail.com-%23D44638?logo=gmail&style=for-the-badge&color=green" />
+  </a>
+</p>
