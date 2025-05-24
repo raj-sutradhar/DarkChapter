@@ -9,6 +9,8 @@ _A Mysterious Bookstore Experience in the Shadows_
 
 ![DarkChapter Demo](https://raw.githubusercontent.com/raj-sutradhar/DarkChapter/main/client/src/assets/demo.gif)
 
+---
+
 ## 🌑 Descend into the Dark Chapter
 
 DarkChapter is a moody, elegant e-commerce platform for book enthusiasts who prefer their literature with a side of mystery. Built with modern web technologies and a sleek dark interface, it offers:
@@ -19,106 +21,144 @@ DarkChapter is a moody, elegant e-commerce platform for book enthusiasts who pre
 - **Interactive Book Previews** 🔍  
 - **Order Tracking System** 🚚  
 
+---
 
-# Clone the repository
+## 🔧 Clone the Repository
+
+```bash
 git clone https://github.com/raj-sutradhar/DarkChapter.git
-🧙♂️ Features
-For Readers
-Personalized Book Recommendations 🎯
+```
 
-Wishlist & Cart Management 💼
+---
 
-Order History Tracking 📆
+## 🧙‍♂️ Features
 
-Secure Payment Gateway 💳
+### For Readers
 
-User Profile Customization 🎨
+- **Personalized Book Recommendations** 🎯  
+- **Wishlist & Cart Management** 💼  
+- **Order History Tracking** 📆  
+- **Secure Payment Gateway** 💳  
+- **User Profile Customization** 🎨  
 
-For Admins
-Full Inventory Control 🧮
+### For Admins
 
-Real-time Order Monitoring 📊
+- **Full Inventory Control** 🧮  
+- **Real-time Order Monitoring** 📊  
+- **User Management System** 👥  
+- **Book CRUD Operations** 📖  
+- **Sales Analytics** 📈  
 
-User Management System 👥
+---
 
-Book CRUD Operations 📖
+## 🛠 Tech Stack
 
-Sales Analytics 📈
+| Component       | Technology                              |
+|----------------|------------------------------------------|
+| Frontend       | React, Redux Toolkit, React Router       |
+| Styling        | Tailwind CSS, Heroicons                  |
+| Backend        | Node.js, Express.js                      |
+| Database       | MongoDB, Mongoose                        |
+| Authentication | JWT, Bcrypt                              |
+| API Testing    | Postman                                  |
+| Deployment     | Vercel, Render                           |
 
-🛠 Tech Stack
-Component	Technology
-Frontend	React, Redux Toolkit, React Router
-Styling	Tailwind CSS, Heroicons
-Backend	Node.js, Express.js
-Database	MongoDB, Mongoose
-Authentication	JWT, Bcrypt
-API Testing	Postman
-Deployment	Vercel, Render
-🚀 Installation
-Clone the Repository
+---
 
+## 🚀 Installation
 
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/raj-sutradhar/DarkChapter.git
 cd DarkChapter
-Install Dependencies
+```
 
+### 2. Install Dependencies
 
+```bash
 # Client
-cd client && npm install
+cd client
+npm install
 
 # Server
-cd ../server && npm install
-Environment Setup
+cd ../server
+npm install
+```
 
+### 3. Environment Setup
 
-# Create .env file in server directory
-touch server/.env
-Start Development Servers
+```bash
+# Create .env file inside server directory
+touch .env
+```
 
+**Example `.env` content:**
 
-# From project root
-npm run dev
-🔮 Environment Variables
-env
-# Server/.env
+```env
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
-📚 API Reference
-Endpoint	Method	Description
-/api/v1/books	GET	Get all books
-/api/v1/orders	POST	Create new order
-/api/v1/users	PUT	Update user details
-/api/v1/admin	GET	Get admin dashboard data
-🌌 Contributing
+```
+
+### 4. Start Development Servers
+
+```bash
+# From project root
+npm run dev
+```
+
+---
+
+## 📚 API Reference
+
+| Endpoint           | Method | Description                  |
+|--------------------|--------|------------------------------|
+| `/api/v1/books`    | GET    | Get all books                |
+| `/api/v1/orders`   | POST   | Create new order             |
+| `/api/v1/users`    | PUT    | Update user details          |
+| `/api/v1/admin`    | GET    | Get admin dashboard data     |
+
+---
+
+## 🌌 Contributing
+
 We welcome contributions from fellow dark scholars!
 
-Fork the Project 📌
+1. Fork the Project 📌  
+2. Create your Feature Branch  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes  
+   ```bash
+   git commit -m "Add some AmazingFeature"
+   ```
+4. Push to the Branch  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request 🎯  
 
-Create your Feature Branch
+---
 
+## 📜 License
 
-git checkout -b feature/AmazingFeature
-Commit your Changes
+Distributed under the MIT License. See `LICENSE` for more information.
 
+---
 
-git commit -m 'Add some AmazingFeature'
-Push to the Branch
+## 🖋 Acknowledgments
 
+- [Axios](https://axios-http.com/) – For API communication  
+- [React Icons](https://react-icons.github.io/react-icons/) – For beautiful icons  
+- [date-fns](https://date-fns.org/) – For date formatting  
+- [React Hot Toast](https://react-hot-toast.com/) – For notifications  
 
-git push origin feature/AmazingFeature
-Open a Pull Request 🎯
+---
 
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+## 🔗 Connect with the Author
 
-🖋 Acknowledgments
-Axios for API communication
-
-React Icons for beautiful icons
-
-Date-fns for date formatting
-
-React Hot Toast for notifications
-
-
+- [GitHub](https://github.com/raj-sutradhar)
+- [LinkedIn](https://www.linkedin.com/in/raj-sutradhar/)
+- 📧 Email: [raj.sutradhar.official@gmail.com](mailto:raj.sutradhar.official@gmail.com)
