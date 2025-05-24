@@ -1,88 +1,177 @@
-<h1 align="center">
-  <span style="font-size: 3rem; color: #ffffff; background: linear-gradient(to right, #ff416c, #ff4b2b); padding: 0.3em 1em; border-radius: 10px; display: inline-block;">
-    DarkChapter 📖✨
-  </span>
-</h1>
+# DarkChapter 📖✨
 
-<p align="center">
-  <i style="color: #ccc; font-size: 1.2rem;">A mysterious bookstore experience in the shadows.</i>
-</p>
+_A Mysterious Bookstore Experience in the Shadows_
 
-<br/>
+[![React](https://img.shields.io/badge/React-18.2.0-%2361DAFB?logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.16.0-%23339933?logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.0-%2347A248?logo=mongodb)](https://www.mongodb.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.2-%2306B6D4?logo=tailwind-css)](https://tailwindcss.com/)
 
-<h2>🌌 Tech Stack</h2>
+![DarkChapter Demo](https://raw.githubusercontent.com/raj-sutradhar/DarkChapter/main/client/src/assets/demo.gif)
 
-<ul>
-  <li><b>Frontend:</b> React, Tailwind CSS</li>
-  <li><b>Backend:</b> Node.js, Express.js</li>
-  <li><b>Database:</b> MongoDB</li>
-</ul>
+---
 
-<hr/>
+## 🌑 Descend into the Dark Chapter
 
-<h2>🚀 Features</h2>
+DarkChapter is a moody, elegant e-commerce platform for book enthusiasts who prefer their literature with a side of mystery. Built with modern web technologies and a sleek dark interface, it offers:
 
-<ul>
-  <li>📚 Dark-Themed Book Browsing</li>
-  <li>🔐 JWT Auth & Secure Checkout</li>
-  <li>📈 Admin Dashboard & Analytics</li>
-  <li>🎨 User Profiles with Customization</li>
-</ul>
+- **Curated Dark Theme Collection** 📚  
+- **Secure User Authentication** 🔒  
+- **Admin Management Dashboard** 👑  
+- **Interactive Book Previews** 🔍  
+- **Order Tracking System** 🚚  
 
-<hr/>
+---
 
-<h2>📦 Installation</h2>
+## 🔧 Clone the Repository
 
-<pre>
+bash
+git clone https://github.com/raj-sutradhar/DarkChapter.git
+
+
+---
+
+## 🧙‍♂️ Features
+
+### For Readers
+
+- **Personalized Book Recommendations** 🎯  
+- **Wishlist & Cart Management** 💼  
+- **Order History Tracking** 📆  
+- **Secure Payment Gateway** 💳  
+- **User Profile Customization** 🎨  
+
+### For Admins
+
+- **Full Inventory Control** 🧮  
+- **Real-time Order Monitoring** 📊  
+- **User Management System** 👥  
+- **Book CRUD Operations** 📖  
+- **Sales Analytics** 📈  
+
+---
+
+## 🛠 Tech Stack
+
+| Component       | Technology                              |
+|----------------|------------------------------------------|
+| Frontend       | React, Redux Toolkit, React Router       |
+| Styling        | Tailwind CSS, Heroicons                  |
+| Backend        | Node.js, Express.js                      |
+| Database       | MongoDB, Mongoose                        |
+| Authentication | JWT, Bcrypt                              |
+| API Testing    | Postman                                  |
+| Deployment     | Vercel, Render                           |
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+bash
 git clone https://github.com/raj-sutradhar/DarkChapter
 cd DarkChapter
+
+
+### 2. Install Dependencies
+
+bash
+# Client
+cd frontend
 npm install
+
+# Server
+cd ../backend
+npm install
+
+
+### 3. Environment Setup
+
+bash
+# Create .env file inside server directory
+touch .env
+
+
+**Example .env content:**
+
+env
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+
+### 4. Start Development Servers
+
+bash
+# From project root
 npm run dev
-</pre>
 
-<hr/>
 
-<h2>✨ Connect With Me</h2>
+---
 
-<div align="center" style="margin-top: 1em;">
+## 📚 API Reference
+
+| Endpoint           | Method | Description                  |
+|--------------------|--------|------------------------------|
+| /api/v1/books    | GET    | Get all books                |
+| /api/v1/orders   | POST   | Create new order             |
+| /api/v1/users    | PUT    | Update user details          |
+| /api/v1/admin    | GET    | Get admin dashboard data     |
+
+---
+
+## 🌌 Contributing
+
+We welcome contributions from fellow dark scholars!
+
+1. Fork the Project 📌  
+2. Create your Feature Branch  
+   
+bash
+   git checkout -b feature/AmazingFeature
+
+3. Commit your Changes  
+   
+bash
+   git commit -m "Add some AmazingFeature"
+
+4. Push to the Branch  
+   
+bash
+   git push origin feature/AmazingFeature
+
+5. Open a Pull Request 🎯  
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+---
+
+## 🖋 Acknowledgments
+
+- [Axios](https://axios-http.com/) – For API communication  
+- [React Icons](https://react-icons.github.io/react-icons/) – For beautiful icons  
+- [date-fns](https://date-fns.org/) – For date formatting  
+- [React Hot Toast](https://react-hot-toast.com/) – For notifications  
+
+---
+
+## 🔗 Connect with the Author
+
+<p align="left">
   <a href="https://github.com/raj-sutradhar" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-raj--sutradhar-181717?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-raj--sutradhar-%2312100E?logo=github&style=for-the-badge&labelColor=gray&color=green" />
   </a>
-  <a href="https://linkedin.com/in/raj-sutradhar-ba9527286" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-raj--sutradhar-0e76a8?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  
+  <a href="https://www.linkedin.com/in/raj-sutradhar-ba9527286/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-raj%20sutradhar-%230077B5?logo=linkedin&style=for-the-badge&color=green" />
   </a>
+  
   <a href="mailto:sutradharraj704@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-d14836?style=for-the-badge&logo=gmail" alt="Email">
+    <img src="https://img.shields.io/badge/Email-sutradharraj704%40gmail.com-%23D44638?logo=gmail&style=for-the-badge&color=green" />
   </a>
-</div>
-
-<hr/>
-
-<h2>🌠 Animated Welcome (Visible on VSCode Preview or Web)</h2>
-
-<!-- GitHub does not support <style>, but this works in local preview -->
-<div style="margin-top: 40px;">
-  <div style="
-    font-size: 2rem;
-    text-align: center;
-    color: #fff;
-    background: linear-gradient(270deg, #ff4b2b, #ff416c);
-    padding: 1rem;
-    border-radius: 15px;
-    animation: glow 2s ease-in-out infinite alternate;
-  ">
-    Welcome to the Dark Side of Books 📚🌌
-  </div>
-</div>
-
-<!-- GitHub strips <style> but this works locally -->
-<style>
-@keyframes glow {
-  from {
-    box-shadow: 0 0 10px #ff4b2b;
-  }
-  to {
-    box-shadow: 0 0 30px #ff4b2b, 0 0 50px #ff416c;
-  }
-}
-</style>
+</p>
