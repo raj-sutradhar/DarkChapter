@@ -70,7 +70,7 @@ git clone https://github.com/raj-sutradhar/DarkChapter.git
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/raj-sutradhar/DarkChapter.git
+git clone https://github.com/raj-sutradhar/DarkChapter
 cd DarkChapter
 ```
 
@@ -78,11 +78,11 @@ cd DarkChapter
 
 ```bash
 # Client
-cd client
+cd frontend
 npm install
 
 # Server
-cd ../server
+cd ../backend
 npm install
 ```
 
@@ -160,5 +160,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 🔗 Connect with the Author
 
 - [GitHub](https://github.com/raj-sutradhar)
-- [LinkedIn](https://www.linkedin.com/in/raj-sutradhar/)
-- 📧 Email: [raj.sutradhar.official@gmail.com](mailto:raj.sutradhar.official@gmail.com)
+- [LinkedIn]([https://www.linkedin.com/in/raj-sutradhar/](https://www.linkedin.com/in/raj-sutradhar-ba9527286/))
+- 📧 Email: [sutradharraj704@gmail.com](mailto:sutradharraj704@gmail.com)
