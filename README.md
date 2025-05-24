@@ -61,7 +61,7 @@ git clone https://github.com/raj-sutradhar/DarkChapter.git
 | Database       | MongoDB, Mongoose                        |
 | Authentication | JWT, Bcrypt                              |
 | API Testing    | Postman                                  |
-| Deployment     | Vercel, Render                           |
+
 
 ---
 
@@ -70,7 +70,7 @@ git clone https://github.com/raj-sutradhar/DarkChapter.git
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/raj-sutradhar/DarkChapter.git
+git clone https://github.com/raj-sutradhar/DarkChapter
 cd DarkChapter
 ```
 
@@ -78,11 +78,11 @@ cd DarkChapter
 
 ```bash
 # Client
-cd client
+cd frontend
 npm install
 
 # Server
-cd ../server
+cd ../backend
 npm install
 ```
 
